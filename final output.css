@@ -1,0 +1,333 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.video1 {
+  height: 22vh;
+  width: 94vw;
+  object-fit: cover;
+}
+
+a{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: rgb(255, 0, 85);
+}
+a:active{
+  color: burlywood;
+}
+.btn:hover{
+  background-color:  rgba(20, 138, 138, 0.925) ;
+}
+
+.maingrid {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preview {
+  display: flex;
+  justify-content: space-around;
+}
+
+.numdiv {
+  display: flex;
+  gap: 7px;
+}
+.numbtn {
+  text-align: center;
+  align-content: center;
+  border: 1px solid black;
+  font-weight: bold;
+  color: rgb(59, 52, 52);
+  background-color: rgba(150, 147, 147, 0.74);
+  height: 3vh;
+}
+
+.btn {
+  text-align: center;
+  align-content: center;
+  border: 1px solid black;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(22, 185, 185, 0.952);
+  height: 3vh;
+}
+
+.numbtn:hover {
+  background-color:  rgba(32, 207, 207, 0.897) ;
+  color: black;
+}
+
+.enditems {
+  display: flex;
+  justify-content: space-evenly;
+
+  gap: 6vw;
+  background-color: rgba(199, 197, 197, 0.795);
+}
+
+.end {
+  border: 1px solid black;
+  color: rgb(136, 133, 133);
+  width: 14vw;
+  align-content: center;
+  border: none;
+}
+.end2 {
+  border: 1px solid black;
+  color: rgb(136, 133, 133);
+  width: 5vw;
+  align-content: center;
+  border: none;
+}
+.catalogze {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(31, 160, 160);
+}
+.link {
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(31, 160, 160);
+}
+.para1 {
+  word-spacing: 8px;
+  font-size: small;
+}
+
+#icons {
+  border: 1px solid black;
+  gap: 1vw;
+  display: flex;
+  border: none;
+}
+.icon1 {
+  height: 2.6vh;
+  background-color: grey;
+}
+
+.icon2 {
+  
+  height: 3vh;
+  width: 2vw;
+}
+.icon3 {
+  opacity: 70%;
+background-color: white;
+  height: 3vh;
+}
+.icon4 {
+  background-color: white;
+  opacity: 40%;
+  height: 3vh;
+}
+
+/* **for mobile users ** */
+
+@media screen and (min-width: 0px) and (max-width: 425px) {
+  .nav {
+    font-size: 97%;
+    gap: 3vw;
+    flex-wrap: wrap;
+  }
+  .catlog {
+    font-size: 2.4vh;
+  }
+  .video1 {
+    height: 16vh;
+    width: 97vw;
+    object-fit: cover;
+  }
+
+  #input2 {
+    width: 6%;
+  }
+  input {
+    position: relative;
+    top: -10vh;
+    left: 20vw;
+  }
+
+  .latest {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .latestfont1 {
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: rgb(14, 189, 189);
+    font-size: 2.1vh;
+  }
+  .latestfont2 {
+    font-size: 1.6vh;
+    color: rgb(14, 189, 189);
+  }
+  button {
+    height: 1.9vh;
+    color: rgb(14, 189, 189);
+  }
+
+  .img {
+    height: 22vh;
+    width: 85vw;
+  }
+  .maingrid {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 2vw;
+    justify-items: center;
+    padding-top: 4%;
+  }
+  .photos {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    width: 20%;
+  }
+  .numbtn {
+    width: 5vw;
+  }
+
+  .end2 {
+    justify-content: center;
+  }
+}
+
+/* **for tablet ** */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .nav {
+    font-size: 1.9vh;
+    gap: 3vw;
+    flex-wrap: wrap;
+  }
+  .img1 {
+    height: 2.3vh;
+  }
+  .catlog {
+    font-size: 2.5vh;
+  }
+  .video1 {
+    height: 22vh;
+    width: 98vw;
+    object-fit: cover;
+  }
+  #input2 {
+    width: 3%;
+  }
+  input {
+    height: 100%;
+    
+    position: relative;
+    top: -12vh;
+    left: 20vw;
+  }
+  .latest {
+    display: flex;
+    justify-content: space-between;
+  }
+  .latestfont1 {
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: rgb(14, 189, 189);
+    font-size: 2.7vh;
+  }
+  .latestfont2 {
+    font-size: 1.6vh;
+    color: rgb(14, 189, 189);
+  }
+  button {
+    height: 1.9vh;
+    color: rgb(14, 189, 189);
+  }
+  .img {
+    height: 23vh;
+    width: 46vw;
+  }
+  .maingrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 2vw;
+
+    padding-top: 4%;
+  }
+  .btn {
+    width: 15%;
+  }
+  .numbtn {
+    width: 5vw;
+  }
+}
+
+/* **for laptop** */
+@media screen and (min-width: 769px) {
+  .nav {
+    font-size: 1.9vh;
+    gap: 7vw;
+    flex-wrap: wrap;
+  }
+  .catlog {
+    font-size: 2.5vh;
+  }
+  .img1 {
+    height: 2.3vh;
+  }
+  .video1 {
+    height: 22vh;
+    width: 98vw;
+    object-fit: cover;
+  }
+  #input2 {
+    width: 1.5%;
+  }
+  input {
+    position: relative;
+    top: -13vh;
+    left: 40vw;
+  }
+  .latest {
+    display: flex;
+    justify-content: space-between;
+  }
+  .latestfont1 {
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    color: rgb(14, 189, 189);
+    font-size: 2.7vh;
+  }
+  .latestfont2 {
+    font-size: 1.6vh;
+    color: rgb(14, 189, 189);
+  }
+  button {
+    height: 1.9vh;
+    color: rgb(14, 189, 189);
+  }
+  .img {
+    height: 25vh;
+    width: 22vw;
+  }
+  .maingrid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2vw;
+
+    padding-top: 4%;
+  }
+  .btn {
+    width: 8%;
+  }
+  .numbtn {
+    width: 2vw;
+  }
+}
